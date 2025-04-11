@@ -1,0 +1,16 @@
+m=[1,2,3,4,5]
+
+m.append(6)
+print(m)
+
+m.pop()
+print(m)
+
+m1=[1,2,3]
+
+# extend - append new list
+m.extend(m1)
+print(m)
+
+m.insert(0,2)
+print(m)
